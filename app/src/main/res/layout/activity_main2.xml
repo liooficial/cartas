@@ -1,0 +1,42 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    >
+
+    <Button
+        android:id="@+id/picas"
+        android:layout_marginTop="170dp"
+        android:layout_marginLeft="28px"
+        android:layout_height="500px"
+        android:layout_width="500px"
+        android:background="@drawable/pica">
+    </Button>
+    <Button
+        android:id="@+id/corazones"
+        android:layout_toRightOf="@+id/picas"
+        android:layout_alignBottom="@+id/picas"
+        android:layout_width="500px"
+        android:layout_height="500px"
+        android:background="@drawable/corazon">
+    </Button>
+    <Button
+        android:id="@+id/treboles"
+        android:layout_below="@+id/picas"
+        android:background="@drawable/trebol"
+        android:layout_marginLeft="28px"
+        android:layout_width="500px"
+        android:layout_height="500px">
+    </Button>
+    <Button
+        android:id="@+id/diamantes"
+        android:layout_toRightOf="@+id/treboles"
+        android:layout_alignBottom="@+id/treboles"
+        android:background="@drawable/diamantes"
+        android:layout_width="500px"
+        android:layout_height="500px">
+    </Button>
+
+
+</RelativeLayout>
